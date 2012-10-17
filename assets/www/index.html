@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>PhoneGap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <script type="text/javascript" charset="utf-8" src="js/cordova-2.1.0.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/jquery.mobile.js"></script>
+  <script type="text/javascript" charset="utf-8" src="http://ryxeuf.fr/liseuse/js/main.js"></script>
+  <script type="text/javascript" charset="utf-8" src="http://ryxeuf.fr/liseuse/js/parser.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+  <link rel="stylesheet" type="text/css" href="css/liseuse.css" />
+ </head>
+<body> 
+	<div data-role="page" id="index"> 
+		<div data-role="header"> 
+			<h1>Manga Reader</h1>
+		</div><!-- /header --> 
+		<div data-role="content"> 
+			<p>Cherchez votre manga: </p> 
+			<ul data-role="listview" data-inset="true" data-filter="true" id="liste-manga"></ul> 
+		</div><!-- /content --> 
+	</div><!-- /page -->
+	
+	<div data-role="page" id="page2" data-add-back-btn=true> 
+		<div data-role="header"> 
+			<h1>Manga Reader</h1> 
+		</div><!-- /header --> 
+		<div data-role="content"> 
+			<ul data-role="listview" data-inset="true" data-filter="true" id="liste-chapitre"></ul> 
+		</div><!-- /content --> 
+	</div><!-- /page -->
+	 
+	
+	<div data-role="page" id="page3" data-add-back-btn=true> 
+		<div data-role="header"> 
+			<h1>Manga Reader</h1> 
+		</div><!-- /header --> 
+		<div data-role="content"> 
+			<div id="manga"></div>
+		</div><!-- /content -->  
+		<div data-role="footer"> 
+			<a href="#" id="lien-pcdt" data-role="button" data-icon="arrow-l" data-iconpos="left" data-theme="a">Precedent</a>
+			<!-- div id="select-page"></div -->
+			<a href="#" id="lien-svt" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a" style="position: absolute; right: 0;">Suivant</a>
+		</div><!-- /footer --> 
+	</div><!-- /page -->
+	 
+	
+	<div data-role="page" id="page4" data-add-back-btn=true> 
+		<div data-role="header"> 
+			<h1>Easter egg</h1> 
+		</div><!-- /header --> 
+		<div data-role="content"> 
+			<div id="easteregg">Une biere de gagnee !</div>
+		</div><!-- /content -->  
+		<div data-role="footer"> 
+		</div><!-- /footer --> 
+	</div><!-- /page -->
+	 
+</body> 
+</html>

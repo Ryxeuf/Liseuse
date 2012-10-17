@@ -1,0 +1,11 @@
+<catalogue>
+    <auteur>Remy Mandon</auteur>
+    <date>13/10/2012</date>
+    
+    <mangas>
+        <manga>
+            <title>Naruto</title>
+            <url>http://ryxeuf.fr/liseuse/mangas/naruto/release.xml</url>
+        </manga>
+    </mangas>
+</catalogue>
